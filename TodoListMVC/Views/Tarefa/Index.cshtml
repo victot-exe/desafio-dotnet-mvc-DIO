@@ -1,0 +1,28 @@
+@model IEnumerable<TodoListMVC.Models.Tarefa>
+
+@{
+    ViewData["Title"] = "Lista de tarefas";
+}
+
+<h2>Lista de tarefas</h2>
+
+<p>
+    <a asp-action="NovaTarefa">Adicionar Tarefa</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+    </tr>
+</table>

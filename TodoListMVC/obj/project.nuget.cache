@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u37dQSFwokyKGt0M0giONgEuIKfRMQIkai/rPT0q7RfTN720zkXhh8EF0A8YxQxVG2pQm0x2KsX3dgjo7NYL9w==",
+  "dgSpecHash": "QPHHK7cXJPcH8ZF0w/rDEEiDdp1Z7RAcfivIDc6kYEw+bx3HqApFZy1sMdo2CPphmbIcKtgNI2qFJMUt2lqH2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\viict\\Documents\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
+  "projectFilePath": "D:\\Documentos\\C#\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\viict\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\viict\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

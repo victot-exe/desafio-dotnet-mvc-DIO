@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using TodoListMVC.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<TodoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
