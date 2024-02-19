@@ -4046,31 +4046,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\viict\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\victor.sousa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\C#\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
+      "projectUniqueName": "C:\\Users\\victor.sousa\\OneDrive - Adventistas\\Área de Trabalho\\DEV AT\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
       "projectName": "TodoListMVC",
-      "projectPath": "D:\\Documentos\\C#\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
-      "packagesPath": "C:\\Users\\viict\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\C#\\desafio-dotnet-mvc-DIO\\TodoListMVC\\obj\\",
+      "projectPath": "C:\\Users\\victor.sousa\\OneDrive - Adventistas\\Área de Trabalho\\DEV AT\\desafio-dotnet-mvc-DIO\\TodoListMVC\\TodoListMVC.csproj",
+      "packagesPath": "C:\\Users\\victor.sousa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victor.sousa\\OneDrive - Adventistas\\Área de Trabalho\\DEV AT\\desafio-dotnet-mvc-DIO\\TodoListMVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\viict\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\victor.sousa\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
