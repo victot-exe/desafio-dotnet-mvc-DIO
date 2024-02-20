@@ -73,5 +73,24 @@ namespace TodoListMVC.Controllers
             return View(tarefa); 
         }
 
+        public IActionResult ExcluirTarefa(int id){
+
+            var tarefa = _context.Tarefas.Find(id);
+            if(tarefa == null){
+                return RedirectToAction(nameof(Index));
+            }
+            return View(tarefa);
+        }
+
+        [HttpPost]
+        public IActionResult ExcluirTarefa(Tarefa tarefa){
+            var tarefaBanco = _context.Tarefas.Find(tarefa.Id);
+
+            _context.Tarefas.Remove(tarefaBanco);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

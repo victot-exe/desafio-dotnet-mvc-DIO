@@ -1,10 +1,10 @@
 @model TodoListMVC.Models.Tarefa
 
 @{
-    ViewData["Title"] = "Detalhes da tarefa";
+    ViewData["Title"] = "Excluir tarefa";
 }
 
-<h1>Detalhes</h1>
+<h1 style="color: red;;">Deseja realmente excluir a tarefa? Esta operação é irreversível.</h1>
 
 <hr>
 
@@ -36,3 +36,9 @@
         </dt>
     </dl>
 </div>
+
+<form asp-action="ExcluirTarefa">
+    <input type="submit" value="Excluir" class="btn btn-danger" />
+</form>
+<br>
+<a asp-action="Index">Voltar</a>
